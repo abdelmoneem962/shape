@@ -4,7 +4,7 @@ import 'package:shape_app/screens/components/scrollable_horizontal_list_of_squar
 import 'package:shape_app/screens/components/square_with_a_semi_circular_mask_widget.dart';
 
 class ShapeScreen extends StatelessWidget {
-  const ShapeScreen({super.key});
+  const ShapeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

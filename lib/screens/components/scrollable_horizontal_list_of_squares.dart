@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ScrollableHorizontalListOfSquaresWidget extends StatelessWidget {
-  const ScrollableHorizontalListOfSquaresWidget({
-  });
+  const ScrollableHorizontalListOfSquaresWidget({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

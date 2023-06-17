@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SquareWithASemiCircularMaskWidget extends StatelessWidget {
-  const SquareWithASemiCircularMaskWidget({
-    super.key,
-  });
+  const SquareWithASemiCircularMaskWidget({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

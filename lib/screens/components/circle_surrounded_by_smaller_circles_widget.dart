@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CircleSurroundedBySmallerCirclesWidget extends StatelessWidget {
-  const CircleSurroundedBySmallerCirclesWidget({
-    super.key,
-  });
+  const CircleSurroundedBySmallerCirclesWidget({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
